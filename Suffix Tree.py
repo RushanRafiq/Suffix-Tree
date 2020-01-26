@@ -102,14 +102,14 @@ class SuffixTree:
 
     
 
-
-c=SuffixTree('aaaaa')
-print(c.Substring('ba'))
-print(c.CheckSuffix('baab'))
-c.addSuffix('aa')
-c.Print()
-print(c.Substring('aaRus'))
-print(c.CheckSuffix('aaRushan'))
-print(c.CheckSuffixPalindrome())
-print(c.IsPalindrome('Maam'))
-print(c.LongestPalindrome())
+def Test():
+    c=SuffixTree('aaaaa')
+    print(c.Substring('ba'))
+    print(c.CheckSuffix('baab'))
+    c.addSuffix('aa')
+    c.Print()
+    print(c.Substring('aaRus'))
+    print(c.CheckSuffix('aaRushan'))
+    print(c.CheckSuffixPalindrome())
+    print(c.IsPalindrome('Maam'))
+    print(c.LongestPalindrome())
